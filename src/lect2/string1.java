@@ -12,6 +12,7 @@ public class string1 {
 //         for(int i=0;i<str.length();i++){
 //             System.out.println(str.charAt(i));
 //         }
+         int k;
         int n=str.length();
         int count=0;
          for(int i=0;i<n;i++){
