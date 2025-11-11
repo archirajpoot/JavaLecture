@@ -3,7 +3,7 @@ package lect6;
 class detail{
      String name="archi";
     void print(){
-//        detail d=new detail();
+        detail d=new detail();
         System.out.println(name);
     }
 }
