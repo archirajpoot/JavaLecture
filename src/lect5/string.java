@@ -1,7 +1,5 @@
 package lect5;
 
-import java.sql.SQLOutput;
-
 public class string {
     public static void main(String[] args){
 //        StringBuilder str =new StringBuilder("hello");
@@ -15,9 +13,9 @@ public class string {
 //           str.delete(2,4);
 //        5.
 //          str.reverse();
-//          6.
+//          6. length
 //           str.length();
-////           7.
+////           7.capacity-it tells about the capacity of the
 //           str.capacity();
 //        String str =new String("i love java");
 //        String []ch=str.split(" ");
