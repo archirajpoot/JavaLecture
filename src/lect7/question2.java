@@ -16,7 +16,7 @@ class bankacc{
         System.out.println(balance);
     }
     void withdraw(int x){
-        System.out.println("money to withdraw"+x);
+        System.out.println("money to withdraw:"+x);
         balance-=x;
         System.out.println(balance);
     }
