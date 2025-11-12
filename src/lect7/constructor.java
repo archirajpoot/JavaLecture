@@ -8,6 +8,6 @@ class Bike{
 public class constructor {
     public static void main(String[] args) {
         Bike b = new Bike("royal");
-        Bike c=new Bike("gareeb");
+        Bike c=new Bike("gareebb");
     }
 }
