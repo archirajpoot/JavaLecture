@@ -4,7 +4,7 @@ class laptop{
     int ram;
     float price;
     laptop(String brand,int ram, float price){
-        System.out.println(brand+ram+price);
+        System.out.println(brand+ram+price+" ");
     }
 }
 public class question3 {
