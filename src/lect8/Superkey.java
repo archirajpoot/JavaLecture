@@ -25,9 +25,6 @@ class child extends parent
         System.out.println("super.x:"+super.x);
     }
 }
-
-
-
 class Superkey{
     public static void main(String[] args){
         child c=new child();
