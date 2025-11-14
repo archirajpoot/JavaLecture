@@ -9,8 +9,6 @@ class parent{
         System.out.println("parent constructor:"+x);
     }
 }
-
-
 class child extends parent
 {
     int x=20;
