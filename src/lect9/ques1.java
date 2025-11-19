@@ -1,7 +1,5 @@
 package lect9;
 
-import org.w3c.dom.ls.LSOutput;
-
 class person{
     String displayname(){
         return "archii";
