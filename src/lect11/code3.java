@@ -6,6 +6,7 @@ public class code3 {
         // Q5. Create an interface Vehicle with a default method start() that prints "Vehicle is starting...".
         // Create a class Car that implements Vehicle.
         // Call the default method from an object of Car in the main method
+        //if we use final keyword then the
         car c = new car();
         //c.pop();
         c.start();
