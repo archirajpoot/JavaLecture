@@ -1,10 +1,12 @@
-import p1.b;
-import p2.abc;
+//import p1.b;
+//import p1.a;
+//
+import p1.a;
+import p2.b;
+
 public class Main {
-    public static void main(String[] args) {
-        b s1=new b();
-        s1.sleepp();
-        abc beta=new abc();
-        beta.papa();
+    public static void main(String []args){
+        a objA = new a();
+        b objB = new b();
     }
 }
