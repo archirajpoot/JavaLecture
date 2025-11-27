@@ -1,8 +1,5 @@
 package hashmap;
-
-
 import java.util.HashMap;
-
 public class targetsum {
     public static void main(String[] args) {
         int[] arr = {2, 7, 5};
@@ -14,9 +11,10 @@ public class targetsum {
             int diff=target-arr[i];
 
             if (map.containsKey(diff)) {
-                System.out.println("Pair found: " + arr[i] + " + " + diff + " = " + target);
+                System.out.println("Pair found at: " +i+ "and" + map.get(diff) );
                 break;
             }
             map.put(arr[i],i);
         }
+        System.out.println(map);
     }}
